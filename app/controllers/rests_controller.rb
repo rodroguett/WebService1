@@ -1,3 +1,6 @@
+require 'net/http'
+require "uri"
+
 class RestsController < ApplicationController
   skip_before_action :verify_authenticity_token
 
